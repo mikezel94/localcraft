@@ -3,7 +3,7 @@
  * sitemap, Open Graph tags and JSON-LD. Override at build time:
  *   VITE_SITE_URL=https://yourdomain.example npm run build
  */
-const raw = (import.meta.env.VITE_SITE_URL as string | undefined) ?? 'https://localcraft.app';
+const raw = (import.meta.env.VITE_SITE_URL as string | undefined) ?? 'https://localcraft-xb4o.onrender.com';
 export const SITE_URL = raw.replace(/\/+$/, '');
 
 export const SITE_NAME = 'LocalCraft';
