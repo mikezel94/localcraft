@@ -12,7 +12,7 @@ A workbench of **35 small tools for developers and everyday work** that runs ent
 your browser. Zero servers, no accounts, no telemetry — open a tool, do the thing, done.
 Install it as a PWA and it keeps working with the network cable pulled out.
 
-**Live demo:** <https://localcraft.onrender.com>
+**Live demo:** <https://localcraft-xb4o.onrender.com>
 
 ![LocalCraft homepage](docs/screenshot.png)
 
@@ -54,46 +54,46 @@ Both are flagged in their UIs.
 
 | Tool | What it does |
 | --- | --- |
-| [JSON formatter](https://localcraft.onrender.com/tools/json-formatter) | Pretty-print, minify, validate |
-| [SQL formatter](https://localcraft.onrender.com/tools/sql-formatter) | Format SQL in 8 dialects |
-| [YAML / JSON / CSV converter](https://localcraft.onrender.com/tools/data-converter) | Convert between the three |
-| [JSON to TypeScript](https://localcraft.onrender.com/tools/json-to-ts) | Generate TS types from JSON |
-| [JWT decoder](https://localcraft.onrender.com/tools/jwt-decoder) | Inspect header, payload, expiry |
-| [Base64 encoder](https://localcraft.onrender.com/tools/base64-encoder) | Encode/decode text and files |
-| [URL encoder](https://localcraft.onrender.com/tools/url-encoder) | Percent-encode/decode |
-| [Hash generator](https://localcraft.onrender.com/tools/hash-generator) | MD5, SHA-1, SHA-256, SHA-512 |
-| [UUID generator](https://localcraft.onrender.com/tools/uuid-generator) | UUID v4 and ULID |
-| [Regex tester](https://localcraft.onrender.com/tools/regex-tester) | Live match & capture groups |
-| [Diff checker](https://localcraft.onrender.com/tools/diff-checker) | Side-by-side text diff |
-| [Case converter](https://localcraft.onrender.com/tools/case-converter) | camelCase, snake_case, … |
-| [Duplicate line remover](https://localcraft.onrender.com/tools/duplicate-remover) | Dedupe and sort lines |
-| [Color & contrast checker](https://localcraft.onrender.com/tools/color-contrast-checker) | WCAG contrast validation |
-| [Shadow & gradient generator](https://localcraft.onrender.com/tools/css-effects) | box-shadow and CSS gradients |
-| [SVG optimizer](https://localcraft.onrender.com/tools/svg-optimizer) | Clean up and shrink SVGs |
-| [Unix timestamp converter](https://localcraft.onrender.com/tools/unix-timestamp) | Epoch ↔ human time |
-| [Cron explainer](https://localcraft.onrender.com/tools/cron-parser) | Plain-English cron + next runs |
-| [HTTP status lookup](https://localcraft.onrender.com/tools/http-status) | Reference with docs links |
+| [JSON formatter](https://localcraft-xb4o.onrender.com/tools/json-formatter) | Pretty-print, minify, validate |
+| [SQL formatter](https://localcraft-xb4o.onrender.com/tools/sql-formatter) | Format SQL in 8 dialects |
+| [YAML / JSON / CSV converter](https://localcraft-xb4o.onrender.com/tools/data-converter) | Convert between the three |
+| [JSON to TypeScript](https://localcraft-xb4o.onrender.com/tools/json-to-ts) | Generate TS types from JSON |
+| [JWT decoder](https://localcraft-xb4o.onrender.com/tools/jwt-decoder) | Inspect header, payload, expiry |
+| [Base64 encoder](https://localcraft-xb4o.onrender.com/tools/base64-encoder) | Encode/decode text and files |
+| [URL encoder](https://localcraft-xb4o.onrender.com/tools/url-encoder) | Percent-encode/decode |
+| [Hash generator](https://localcraft-xb4o.onrender.com/tools/hash-generator) | MD5, SHA-1, SHA-256, SHA-512 |
+| [UUID generator](https://localcraft-xb4o.onrender.com/tools/uuid-generator) | UUID v4 and ULID |
+| [Regex tester](https://localcraft-xb4o.onrender.com/tools/regex-tester) | Live match & capture groups |
+| [Diff checker](https://localcraft-xb4o.onrender.com/tools/diff-checker) | Side-by-side text diff |
+| [Case converter](https://localcraft-xb4o.onrender.com/tools/case-converter) | camelCase, snake_case, … |
+| [Duplicate line remover](https://localcraft-xb4o.onrender.com/tools/duplicate-remover) | Dedupe and sort lines |
+| [Color & contrast checker](https://localcraft-xb4o.onrender.com/tools/color-contrast-checker) | WCAG contrast validation |
+| [Shadow & gradient generator](https://localcraft-xb4o.onrender.com/tools/css-effects) | box-shadow and CSS gradients |
+| [SVG optimizer](https://localcraft-xb4o.onrender.com/tools/svg-optimizer) | Clean up and shrink SVGs |
+| [Unix timestamp converter](https://localcraft-xb4o.onrender.com/tools/unix-timestamp) | Epoch ↔ human time |
+| [Cron explainer](https://localcraft-xb4o.onrender.com/tools/cron-parser) | Plain-English cron + next runs |
+| [HTTP status lookup](https://localcraft-xb4o.onrender.com/tools/http-status) | Reference with docs links |
 
 ### Everyday (16)
 
 | Tool | What it does |
 | --- | --- |
-| [Placeholder PDF generator](https://localcraft.onrender.com/tools/fake-pdf-generator) | Test PDFs of any size |
-| [Receipt & invoice generator](https://localcraft.onrender.com/tools/receipt-invoice-generator) | Paper + 80 mm thermal, logos |
-| [Certificate generator](https://localcraft.onrender.com/tools/certificate-generator) | Designed PDF certificates |
-| [PDF merger](https://localcraft.onrender.com/tools/pdf-merger) | Combine PDFs |
-| [PDF page extractor](https://localcraft.onrender.com/tools/pdf-page-extractor) | Pull out pages or ranges |
-| [PDF watermarker](https://localcraft.onrender.com/tools/pdf-watermarker) | Stamp text watermarks |
-| [Image converter & resizer](https://localcraft.onrender.com/tools/image-converter) | PNG / JPEG / WebP / AVIF |
-| [AI background remover](https://localcraft.onrender.com/tools/background-remover) | Runs in-browser (ONNX) |
-| [Media trimmer & converter](https://localcraft.onrender.com/tools/media-converter) | ffmpeg.wasm, no upload |
-| [QR generator & scanner](https://localcraft.onrender.com/tools/qr-tools) | Logo embed + camera scanner |
-| [Barcode generator](https://localcraft.onrender.com/tools/barcode-generator) | Code 128/39, EAN-13, UPC-A, ITF-14 |
-| [AES-256 encryptor](https://localcraft.onrender.com/tools/file-encryptor) | Encrypt files & text (Web Crypto) |
-| [Password generator](https://localcraft.onrender.com/tools/password-generator) | Passwords & passphrases |
-| [Loan & mortgage calculator](https://localcraft.onrender.com/tools/loan-calculator) | Full amortization schedule |
-| [Salary converter](https://localcraft.onrender.com/tools/salary-converter) | Hourly ↔ monthly ↔ yearly |
-| [Tip & bill splitter](https://localcraft.onrender.com/tools/tip-calculator) | Split the bill, per person |
+| [Placeholder PDF generator](https://localcraft-xb4o.onrender.com/tools/fake-pdf-generator) | Test PDFs of any size |
+| [Receipt & invoice generator](https://localcraft-xb4o.onrender.com/tools/receipt-invoice-generator) | Paper + 80 mm thermal, logos |
+| [Certificate generator](https://localcraft-xb4o.onrender.com/tools/certificate-generator) | Designed PDF certificates |
+| [PDF merger](https://localcraft-xb4o.onrender.com/tools/pdf-merger) | Combine PDFs |
+| [PDF page extractor](https://localcraft-xb4o.onrender.com/tools/pdf-page-extractor) | Pull out pages or ranges |
+| [PDF watermarker](https://localcraft-xb4o.onrender.com/tools/pdf-watermarker) | Stamp text watermarks |
+| [Image converter & resizer](https://localcraft-xb4o.onrender.com/tools/image-converter) | PNG / JPEG / WebP / AVIF |
+| [AI background remover](https://localcraft-xb4o.onrender.com/tools/background-remover) | Runs in-browser (ONNX) |
+| [Media trimmer & converter](https://localcraft-xb4o.onrender.com/tools/media-converter) | ffmpeg.wasm, no upload |
+| [QR generator & scanner](https://localcraft-xb4o.onrender.com/tools/qr-tools) | Logo embed + camera scanner |
+| [Barcode generator](https://localcraft-xb4o.onrender.com/tools/barcode-generator) | Code 128/39, EAN-13, UPC-A, ITF-14 |
+| [AES-256 encryptor](https://localcraft-xb4o.onrender.com/tools/file-encryptor) | Encrypt files & text (Web Crypto) |
+| [Password generator](https://localcraft-xb4o.onrender.com/tools/password-generator) | Passwords & passphrases |
+| [Loan & mortgage calculator](https://localcraft-xb4o.onrender.com/tools/loan-calculator) | Full amortization schedule |
+| [Salary converter](https://localcraft-xb4o.onrender.com/tools/salary-converter) | Hourly ↔ monthly ↔ yearly |
+| [Tip & bill splitter](https://localcraft-xb4o.onrender.com/tools/tip-calculator) | Split the bill, per person |
 
 ## Quick start
 
