@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalCraft — the toolbox that never phones home</title>
+    <meta
+      name="description"
+      content="A toolbox for developers and everyday work that runs entirely in your browser. Zero servers, 100% private, works offline."
+    />
+    <link rel="canonical" href="https://localcraft.app/" />
+    <meta property="og:site_name" content="LocalCraft" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f2f4f8" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#12172b" />
+    <script>
+      // Apply the saved theme before first paint to avoid a flash of the wrong mode.
+      (function () {
+        try {
+          var saved = localStorage.getItem('localcraft:theme');
+          var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.classList.toggle('dark', dark);
+        } catch (e) {
+          /* storage unavailable — light theme it is */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>LocalCraft runs entirely in your browser, which means it needs JavaScript to work.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
